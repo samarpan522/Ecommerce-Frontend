@@ -9,7 +9,7 @@ const Newcollection = () => {
       <h1>NEW COLLECTION</h1>
       <hr />
       <div className="collections">
-        {new_collection.map((item, i) => {
+        {new_collection.map((item) => {
           return (
             <Item
               key={item.id}

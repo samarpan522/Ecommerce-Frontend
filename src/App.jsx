@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Shop from "./pages/Shop";
 import Cart from "./pages/Cart";
@@ -13,7 +12,6 @@ import women_banner from "./components/Assets/banner_women.png";
 import kid_banner from "./components/Assets/banner_kids.png";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
