@@ -1,7 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 import React from "react";
 import { createContext } from "react";
-import all_product from "../components/assets/all_product";
+import all_product from "../components/Assets/all_product";
 
 export const ShopContext = createContext(null);
 
